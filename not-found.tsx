@@ -1,0 +1,1 @@
+export default function NotFound(){ return <main className='container'><h1 className='text-2xl font-bold'>Page not found</h1><p className='mt-2 text-[color:var(--muted)]'>Try the <a className='link' href='/'>home page</a>.</p></main>; }

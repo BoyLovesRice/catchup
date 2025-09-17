@@ -1,0 +1,1 @@
+export default function Page(){ return <main className='container'><h1 className='text-2xl font-bold'>Terms</h1><p className='mt-2 text-[color:var(--muted)]'>Use Catchup responsibly. No unlawful content. Service provided as-is; reasonable efforts for uptime.</p></main>; }

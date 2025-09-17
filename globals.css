@@ -1,0 +1,10 @@
+@tailwind base;@tailwind components;@tailwind utilities;
+/* Design tokens */
+:root{--bg:#0b1020;--ink:#e8ebff;--muted:#9aa3b2;--card:#0f162f;--line:rgba(255,255,255,.10);--grad-start:#5b8cff;--grad-end:#8b5dff}
+@media (prefers-color-scheme: light){:root{--bg:#f6f7fb;--ink:#0f172a;--muted:#62708a;--card:#ffffff;--line:#e6e8ef}}
+html,body{height:100%} body{background:var(--bg); color:var(--ink)}
+.container{max-width:1120px;margin:0 auto;padding:24px 20px}
+.card{background:linear-gradient(180deg,rgba(255,255,255,.04),rgba(255,255,255,.02));border:1px solid var(--line);border-radius:18px;box-shadow:0 6px 20px rgba(0,0,0,.10)}
+.btn{display:inline-flex;align-items:center;justify-content:center;border-radius:12px;padding:10px 14px;border:1px solid var(--line);}
+.btn-primary{background:linear-gradient(180deg,var(--grad-start),var(--grad-end));border:none;color:white;box-shadow:0 6px 16px rgba(91,140,255,.35)}
+.link{color:#93c5fd}
